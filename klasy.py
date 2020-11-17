@@ -18,4 +18,3 @@ class Produkt:
         cur.execute('INSERT INTO magazyn VALUES(Null,?,?,?,?,?,?);',(self.nazwa_produktu,self.ilosc_max,self.ilosc_aktualna,self.braki,self.gatunek,self.rodzaj_produktu))
         con.commit()
         return nowy_produkt
-
